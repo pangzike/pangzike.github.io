@@ -1,0 +1,14 @@
+type = "card"
+title = "Teaching"
+
+[[items]]
+title = "CSE 434S: Reverse Engineering and Malware Analysis"
+subtitle = "Teaching Assistant"
+date = "Jan 2024"
+content = "Washington University in St. Louis"
+
+[[items]]
+title = "CSE 523S: Systems Security"
+subtitle = "Teaching Assistant"
+date = "Jan 2024"
+content = "Washington University in St. Louis"

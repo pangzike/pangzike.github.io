@@ -1,0 +1,61 @@
+[site]
+title = "Ke Yang"
+description = "PhD student at UC Irvine, working on security and privacy in AI-powered systems."
+favicon = "/favicon.png"
+
+[author]
+name = "Ke Yang"
+title = "PhD Student"
+institution = "University of California, Irvine"
+avatar = "/avatar.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "ke.yang@uci.edu"
+location = "Irvine, CA, USA"
+location_url = "https://www.google.com/maps/search/?api=1&query=University+of+California%2C+Irvine"
+location_details = [
+  "University of California, Irvine",
+  "Irvine, CA 92697"
+]
+google_scholar = "https://scholar.google.com/citations?user=JBHc6OYAAAAJ&hl=en&inst=2230987035966559800"
+github = "https://github.com/pangzike"
+linkedin = "https://www.linkedin.com/in/ke-yang-b46432294"
+
+[features]
+# Show a like button on the about page
+enable_likes = false
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

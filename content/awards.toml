@@ -1,0 +1,13 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "IMC Travel Grant"
+subtitle = "ACM Internet Measurement Conference"
+date = "2025"
+
+[[items]]
+title = "Graduate Dean's Recruitment Fellowship"
+subtitle = "University of California, Irvine"
+date = "2025"

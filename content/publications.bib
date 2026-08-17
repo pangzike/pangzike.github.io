@@ -1,0 +1,46 @@
+@inproceedings{wu2026towards,
+  title={Towards Automating Data Access Permissions in AI Agents},
+  author={Wu, Yuhao and Yang, Ke and Roesner, Franziska and Kohno, Tadayoshi and Zhang, Ning and Iqbal, Umar},
+  booktitle={IEEE Symposium on Security and Privacy (S&P)},
+  year={2026},
+  url={https://ieeexplore.ieee.org/abstract/document/11573452},
+  preview={udac.png},
+  selected={true},
+  abstract={As AI agents attempt to autonomously act on users' behalf, they raise transparency and control issues. We argue that permission-based access control is indispensable in providing meaningful control to the users, but conventional permission models are inadequate for the automated agentic execution paradigm. We therefore propose automated permission management for AI agents. Our key idea is to conduct a user study to identify the factors influencing users' permission decisions and to encode these factors into an ML-based permission management assistant capable of predicting users' future decisions. We find that participants' permission decisions are influenced by communication context but importantly individual preferences tend to remain consistent within contexts, and align with those of other participants. Leveraging these insights, we develop a permission prediction model achieving 85.1% accuracy overall and 94.4% for high-confidence predictions. We find that even without using permission history, our model achieves an accuracy of 66.9%, and a slight increase of training samples (i.e., 1-4) can substantially increase the accuracy by 10.8%.}
+}
+
+@inproceedings{wu2025indepth,
+  title={An In-Depth Investigation of Data Collection in LLM App Ecosystems},
+  author={Wu, Yuhao and Jaff, Evin and Yang, Ke and Zhang, Ning and Iqbal, Umar},
+  booktitle={Internet Measurement Conference (IMC)},
+  year={2025},
+  mon={oct},
+  url={https://arxiv.org/abs/2408.13247},
+  preview={research3.png},
+  selected={true},
+  abstract={LLM app (tool) ecosystems are rapidly evolving to support sophisticated use cases that often require extensive user data collection. Given that LLM apps are developed by third parties and anecdotal evidence indicating inconsistent enforcement of policies by LLM platforms, sharing user data with these apps presents significant privacy risks. In this paper, we aim to bring transparency in data practices of LLM app ecosystems. We examine OpenAI's GPT app ecosystem as a case study. We propose an LLM-based framework to analyze the natural language specifications of GPT Actions (custom tools) and assess their data collection practices. Our analysis reveals that Actions collect excessive data across 24 categories and 145 data types, with third-party Actions collecting 6.03% more data on average. We find that several Actions violate OpenAI's policies by collecting sensitive information, such as passwords, which is explicitly prohibited by OpenAI. Lastly, we develop an LLM-based privacy policy analysis framework to automatically check the consistency of data collection by Actions with disclosures in their privacy policies. Our measurements indicate that the disclosures for most of the collected data types are omitted, with only 5.8% of Actions clearly disclosing their data collection practices.}
+}
+
+@inproceedings{wan2023multigrained,
+  title={Multi-Grained Knowledge Retrieval for End-to-End Task-Oriented Dialog},
+  author={Wan, Fanqi and Shen, Weizhou and Yang, Ke and Quan, Xiaojun and Bi, Wei},
+  booktitle={Association for Computational Linguistics (ACL)},
+  year={2023},
+  mon={jul},
+  url={https://aclanthology.org/2023.acl-long.627/},
+  preview={research2.png},
+  selected={true},
+  abstract={Retrieving proper domain knowledge from an external database lies at the heart of end-to-end task-oriented dialog systems to generate informative responses. Most existing systems blend knowledge retrieval with response generation and optimize them with direct supervision from reference responses, leading to suboptimal retrieval performance when the knowledge base becomes large-scale. To address this, we propose to decouple knowledge retrieval from response generation and introduce a multi-grained knowledge retriever (MAKER) that includes an entity selector to search for relevant entities and an attribute selector to filter out irrelevant attributes. To train the retriever, we propose a novel distillation objective that derives supervision signals from the response generator. Experiments conducted on three standard benchmarks with both small and large-scale knowledge bases demonstrate that our retriever performs knowledge retrieval more effectively than existing methods.}
+}
+
+@inproceedings{shen2023generic,
+  title={Generic Dependency Modeling for Multi-Party Conversation},
+  author={Shen, Weizhou and Quan, Xiaojun and Yang, Ke},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2023},
+  mon={jun},
+  doi={10.1109/ICASSP49357.2023.10096003},
+  url={https://ieeexplore.ieee.org/abstract/document/10096003},
+  preview={research1.png},
+  abstract={To model the dependencies between utterances in multi-party conversations, we propose a simple and generic framework based on the dependency parsing results of utterances. Particularly, we present an approach to encoding the dependencies in the form of relative dependency encoding (ReDE) and illustrate how to implement it in Transformers by modifying the computation of self-attention. Experimental results on four multi-party conversation benchmarks show that this framework successfully boosts the general performance of two Transformer-based language models and leads to comparable or even superior performance compared to the state-of-the-art methods.}
+}
